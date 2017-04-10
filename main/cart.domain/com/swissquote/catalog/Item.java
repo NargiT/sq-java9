@@ -1,5 +1,7 @@
 package com.swissquote.catalog;
 
+import com.swissquote.utils.Jsonify;
+
 public class Item {
 
     private final String name;
@@ -9,6 +11,6 @@ public class Item {
     }
 
     public String toJson() {
-        return String.format("{ \"name\": \"%s\"}", name);
+        return new Jsonify(name).toString();
     }
 }
