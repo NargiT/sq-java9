@@ -93,21 +93,6 @@ localhost:8080/ping
 ### Build with java 8 run with java 9
 ```bash
 ./bin/build-j8.sh && ./bin/run-j9.sh
-
-Error: A JNI error has occurred, please check your installation and try again
-Exception in thread "main" java.lang.NoClassDefFoundError: com/sun/net/httpserver/HttpHandler
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3113)
-	at java.base/java.lang.Class.getMethodsRecursive(Class.java:3254)
-	at java.base/java.lang.Class.getMethod0(Class.java:3240)
-	at java.base/java.lang.Class.getMethod(Class.java:2058)
-	at java.base/sun.launcher.LauncherHelper.validateMainClass(LauncherHelper.java:686)
-	at java.base/sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:544)
-Caused by: java.lang.ClassNotFoundException: com.sun.net.httpserver.HttpHandler
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:552)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:186)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:476)
-	... 7 more
 ```
 
 # Tools to help migration
