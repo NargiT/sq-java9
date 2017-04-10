@@ -1,6 +1,8 @@
 package com.swissquote.catalog;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by tigran on 09/04/2017.

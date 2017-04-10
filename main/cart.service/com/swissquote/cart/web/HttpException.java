@@ -1,4 +1,4 @@
-package com.swissquote.web.web;
+package com.swissquote.cart.web;
 
 public class HttpException extends RuntimeException {
     public HttpException(String message) {

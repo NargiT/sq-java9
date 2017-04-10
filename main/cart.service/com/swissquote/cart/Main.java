@@ -1,8 +1,8 @@
 package com.swissquote.cart;
 
 import com.sun.net.httpserver.HttpServer;
-import com.swissquote.catalog.CartHandler;
-import ping.VersionHandler;
+import com.swissquote.cart.handler.VersionHandler;
+import com.swissquote.cart.handler.CartHandler;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
